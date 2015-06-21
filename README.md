@@ -22,20 +22,16 @@ Send an email with your expenses and get a report
 
 8. Add a new trigger:
 
-`
-    function to run - 'reportExpenses'
-    event type      - time-driven
-    interval type   - minutes
-    interval length - every minute
-`
+    - function to run : 'reportExpenses'
+    - event type      : time-driven
+    - interval type   : minutes
+    - interval length : every minute
 
 9. From your common account, send an email to (1):
 
-`
-    - subject: New expense
-    - body   : - if you want to increase budget use a negative value, like -100
-               - if you want to register a new expense, just put the positive number
-               - you can add the concept for your own purposes, I prefer using parens, like: 15 (starbucks)
-`
+    - subject : New expense
+    - body    : 1 // how much you spent
+    - if you want to increase budget use a negative value, like -100
+    - you can add the concept for your own purposes, it won't affect. I prefer using parens, like: 15 (starbucks)
 
 10. Within a minute you'll get your new balance.
