@@ -32,4 +32,4 @@ Send an email with your expenses and get a report
                - if you want to register a new expense, just put the positive number
                - you can add the concept for your own purposes, I prefer using parens, like: 15 (starbucks)
 
-10. within a minute you'll get your new balance
+10. Within a minute you'll get your new balance
