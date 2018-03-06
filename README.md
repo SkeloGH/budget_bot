@@ -14,7 +14,7 @@ Send an email with your expenses and get a report
 
 4. Create a blank project.
 
-5. Paste the code below and save the project with whichever name you like.
+5. Paste the code inside `report_expenses.gs` and save the project with whichever name you like.
 
 6. Replace SOURCE_EMAIL value with the account created in (1), this is where we save the balance.
 
@@ -22,7 +22,7 @@ Send an email with your expenses and get a report
 
 8. Add a new trigger:
 
-    - function to run : 'reportExpenses'
+    - function to run : `reportExpenses`
     - event type      : time-driven
     - interval type   : minutes
     - interval length : every minute
